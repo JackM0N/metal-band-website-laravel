@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.table-view-wrapper .pointer-events-none.absolute.inset-y-0.right-0.flex.items-center.px-2.text-gray-700 {
+    display: none
+}
+
+.square{
+    width: 25rem;
+    height: 25rem;
+}
+
+.rectangle{
+    width: 37rem;
+    height: 60rem;
+}
+
+.desktop{
+    width: 100%;
+    display: block;
+    height: auto;
+}
